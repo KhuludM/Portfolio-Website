@@ -1,0 +1,777 @@
+*
+{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+}
+
+
+html
+{
+	overflow-x: hidden;
+	margin: 0px;
+	width: 100%;
+}
+
+
+body
+{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+
+.copyright
+{
+	display: none;
+}
+
+
+
+
+/* Desktop Layout */
+
+/* ---------------------------------- Here starts the header section */
+
+
+	/* ---------------------------------- Here starts the menu bar */
+
+
+		.menu_and_logo
+		{
+			display: inline-flex;
+			flex-wrap: wrap;
+			margin: 90px 150px 150px;
+			justify-content: space-between;
+			height: 70px;
+			width: 80%;
+		}
+
+
+		.logo
+		{
+			width: 250px;
+		}
+
+
+		.menu li
+		{
+			font-size: 24px;
+			display: inline;
+			padding: 3px 50px;
+			background-color: rgba(196, 196, 196, 0.3);
+			border-right: 1px solid ;
+			align-items: center;
+		}
+
+
+		.menu li a
+		{
+			color: #F2F7FF;
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+
+		.menu li:hover 
+		{
+			background-color: rgba(0, 0, 0, 0.45);
+			color: #F2F7FF;	
+		}
+
+		
+		#active 
+		{
+			color: black;	
+		}
+
+
+		li:hover #active
+		{
+			color: #F2F7FF;	
+		}
+
+
+		.phone_menu
+		{
+			display: none;
+		}
+
+
+	/* ---------------------------------- Here ends the menu bar */
+
+
+	.menu_background
+	{
+		width: 100%;
+		height: 100%;
+		background: #272727;
+	}
+
+
+	header h1
+	{
+		font-size: 6rem;
+		font-weight: 200;
+		line-height: 80px;
+		color: #B9D4FF;
+		margin: auto;
+		width: 80%;
+	}
+
+/* ---------------------------------- Here ends the header */
+
+
+
+/* ---------------------------------- Here starts the web design section  */
+
+	#web
+	{
+		
+		background: rgba(196, 196, 196, 0.25);
+		margin: 5px auto;
+		width: 100%;
+	}
+
+
+
+	#web h2
+	{
+
+		font-size: 9rem;
+		font-weight: 300;
+		color: #FFFFFF;
+		text-align: right;
+		width: 90%;
+		margin: 0px;
+		line-height: 180px;
+	}
+
+
+	.web_background_img
+	{
+		width: 60%;
+		margin: 0px;
+	}
+
+
+	.web_background_color
+	{
+		
+		width: 100%;
+		height: 100%;
+		background: #EFEFEF;
+	}
+
+
+	h3
+	{
+		font-size: 4rem;
+		margin: -150px 250px auto;
+		line-height: 150px;
+		text-align: center;
+		font-weight: 200;
+		width: 90%;
+		color: rgba(0, 0, 0, 0.68);
+	}
+
+
+	.kaust_web
+	{
+		background: #E6F0FF;
+		margin: 5px auto;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.web_design
+	{
+		width: 80%;
+		margin: 40px  120px;
+	}
+
+
+/* ---------------------------------- Here ends the web design section */
+
+
+
+/* ---------------------------------- Here starts the photography section */
+
+
+	#Photography
+	{
+		width: 100%;
+		background: rgba(196, 196, 196, 0.25);
+	}
+
+
+	#Photography h2
+	{
+		font-size: 10rem;
+		font-weight: 300;
+		line-height: 180px;
+		color: #FFFFFF;
+		text-align: left;
+		width: 90%;
+		margin: 0px 120px;
+	}
+
+
+
+	/* ---------------------------------- Here starts the Photo gallery */
+
+
+		#photo_grid 
+		{
+			
+			width: 80%;
+			margin: 50px auto;
+			display: grid;
+			grid-template-columns:repeat(10, 1fr);
+			grid-template-rows: repeat(20, 1fr);
+			grid-column-gap:20px;
+			grid-row-gap: 20px;
+		}
+		
+
+		.img_1
+		{
+			grid-column: 1/7;
+			grid-row: 1/5;
+			height: 100%;
+			width: 100%;
+		}
+
+
+		.img_2
+		{
+			grid-column:7/11 ;
+			grid-row: 1/7;
+			height: 100%;
+			width: 100%;
+			vertical-align: middle;
+		}
+
+
+		.img_3
+		{
+			grid-column: 1/7;
+			grid-row: 5/14;
+			height: 100%;
+			width: 100%;
+			vertical-align: middle;
+		}
+
+
+		.img_4
+		{
+			grid-column:7/11  ;
+			grid-row: 7/10;
+			width: 100%;
+			vertical-align: middle;
+		}
+
+
+		.img_5
+		{
+			grid-column:7/11  ;
+			grid-row: 10/14;
+			height: 100%;
+			width: 100%;
+			vertical-align: middle;
+		}
+
+
+		.img_6
+		{
+			grid-column:1/11;
+			grid-row: 14/21;
+			height: 100%;
+			width: 100%;
+			vertical-align: middle;
+		}
+
+
+	/* ---------------------------------- Here ends the Photo gallery */
+
+
+/* ---------------------------------- Here ends the photography section */
+
+
+
+
+/*---------------------------------- Here starts the footer section */
+
+	.footer_background
+	{
+		width: 100%;
+		height: 100%;
+		background: #272727;
+		text-align: center;
+		margin: 5px auto 0px;
+	}
+
+
+
+
+	.footer_flex
+	{
+		display:flex; 
+		flex-direction: row;
+		justify-content: space-between;
+		color: white;
+		text-align: center;
+		width: 80%;
+		margin: auto;
+	}
+
+
+	.media .icon
+	{	
+		width: 30px;
+		margin: 10px;
+	}
+
+
+	.media h2
+	{
+		font-weight: 100px;
+	}
+
+
+	.sitemap h2
+	{
+		font-size: 25px;
+		margin-left: 40px;
+		font-weight: 100;
+	}
+
+
+	.footer_sitemap 
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.sitemap .footer_sitemap li
+	{
+		color: gray;
+		list-style: none;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+
+	.sitemap .footer_sitemap li a
+	{
+		font-size: 15px;
+		color: gray;
+		text-decoration: none;
+	}
+
+
+	.footer_sitemap li:hover 
+	{
+		background-color: #E6F0FF;
+	}
+
+
+	.contact #logo_footer
+	{
+		width: 235px;
+		margin: 16px auto;
+	}
+
+
+	 .contact #mail,#phone
+	{
+		display: inline-flex;
+	}
+			
+
+	.mail, .phone
+	{
+		width: 30px;
+		height: 30px;
+		padding: 9px;
+	}
+
+
+	.contact p
+	{
+		color: #B9D4FF;
+		font-size: 15px;
+	}
+
+
+	.info
+	{
+		text-align: left;
+	}
+
+	.copyright
+	{
+		width: 100%;
+		color: black;
+		background-color: white;
+		text-align: center;
+	}	
+
+
+/*---------------------------------- Here ends the footer section */
+
+
+
+
+
+/*Tablet Layout*/
+
+@media only screen and (min-width: 601px)
+and (max-width: 900px)
+{
+
+	/* ---------------------------------- Here starts the header */
+
+		/* ---------------------------------- Here starts the menu bar */
+
+			.menu_and_logo
+			{
+				display: block;
+				width: 100%;
+				margin: 90px 50px auto;
+			}
+
+
+			.logo
+			{
+				width: 300px;
+
+			}
+
+
+			.menu li
+			{
+				padding: 3px 35px;
+			}
+
+
+		/* ---------------------------------- Here ends the menu bar */
+
+
+		.menu_background
+		{
+			height: 360px;
+		}
+
+
+		header
+		{
+			display: flex;
+			flex-direction: column;
+		}
+
+
+		header h1
+		{
+			font-size: 4rem;
+		}
+
+	/* ---------------------------------- Here ends the header */
+
+
+
+	/* ---------------------------------- Here starts the web design section  */
+
+
+		#web h2
+		{
+			font-size: 6rem;
+			line-height: 130px;
+		}
+
+
+		h3
+		{
+			font-size: 3rem;
+			margin: -100px 170px auto;
+			line-height: 100px;
+		}
+
+
+		.web_design
+		{
+			width: 80%;
+			margin: 40px  90px;
+		}
+
+
+	/* ---------------------------------- Here ends the web design section */
+
+
+
+	/* ---------------------------------- Here starts the photography section */
+
+
+
+
+		#Photography h2
+		{
+			font-size: 6rem;
+			line-height: 130px;
+		}
+
+
+	/* ---------------------------------- Here ends the photography section */
+
+
+}
+
+
+
+
+
+
+/*Mobile Layout*/
+@media only screen and (max-width:600px)
+{
+
+
+	/* ---------------------------------- Here starts the header */
+
+		/* ---------------------------------- Here starts the menu bar */
+
+
+			.menu_and_logo
+			{
+				margin: 0px 0px auto;
+				height: 200px;
+				width: 100%;
+			}
+
+
+			.logo
+			{
+				width: 50%;
+				height: 55px;
+				margin: 60px auto;
+			}
+
+
+			nav .menu
+			{
+				display:none;
+			}
+
+
+			.phone_menu
+			{
+				display: block;
+				list-style: none;
+				margin: 0px 5px;
+			}
+
+
+			.phone_menu img
+			{
+				width: 30px;
+			}
+
+
+			.phone_menu li
+			{
+				
+				padding: 10px 5px;
+				background-color: rgba(196, 196, 196, 0.3);
+				border-right: 1px solid ;
+				align-items: center;
+			}
+
+
+			.phone_menu li:hover 
+			{
+				background-color: rgba(0, 0, 0, 0.45);	
+			}
+
+			
+			#active2 
+			{
+				background-color: rgba(0, 0, 0, 0.45);	
+			}
+
+
+		/* ---------------------------------- Here ends the menu bar */
+
+
+		.menu_background
+		{
+			height: 280px;
+		}
+
+
+		header h1
+		{
+			font-size: 2.5rem;
+			line-height: 20px;
+			margin: 50px auto;
+		}
+
+	/* ---------------------------------- Here ends the header */
+
+
+
+	/* ---------------------------------- Here starts the web design section  */
+
+
+		#web
+		{
+			background: rgba(196, 196, 196, 0.25);
+			margin: 3px auto;
+			width: 100%;
+		}
+
+
+		#web h2
+		{
+			font-size:  3.5rem;
+			line-height: 80px;
+		}
+
+
+		.web_background_img
+		{
+			width: 90%;
+		}
+
+
+		.web_background_color
+		{
+			width: 100%;
+			height: 100%;
+			background: #EFEFEF;
+		}
+
+
+		h3
+		{
+			font-size: 1.2rem;
+			margin: -70px 105px auto;
+			line-height: 70px;
+		}
+
+
+		.kaust_web
+		{
+			margin: 3px auto;
+		}
+
+
+		.web_design
+		{
+			width: 90%;
+			margin: 20px  20px;
+		}
+
+
+	/* ---------------------------------- Here ends the web design section */
+
+
+
+	/* ---------------------------------- Here starts the photography section */
+
+
+		#Photography h2
+		{
+			font-size: 3.5rem;
+			line-height: 80px;
+			margin: 0px auto;
+		}
+
+
+
+		/* ---------------------------------- Here starts the Photo gallery */
+
+
+			#photo_grid 
+			{
+				width: 90%;
+				margin: 20px auto;
+				display: flex;
+				flex-direction: column;
+			}
+
+		/* ---------------------------------- Here ends the Photo gallery */
+
+
+	/* ---------------------------------- Here ends the photography section */
+
+
+
+
+
+
+
+
+
+	/*---------------------------------- Here starts the footer section */
+
+
+		.footer_background
+		{
+			margin: 2px auto 0px;
+		}
+
+
+		.footer_flex
+		{
+			display: flex; 
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			margin: 0px -20px;
+		}
+
+
+		.sitemap h2
+		{
+			font-size: 25px;
+			margin: 0px 0px;
+			text-align: center;
+		}
+
+
+		.sitemap .footer_sitemap 
+		{
+			display:flex;
+			flex-direction: row;
+		}
+
+
+		.sitemap .footer_sitemap li
+		{
+			margin: auto 10px auto;
+			border-bottom: 1px solid;
+		}
+
+
+		.contact #logo_footer
+		{
+			width: 235px;
+			margin:0px 90px;
+		}
+
+
+		.info
+		{
+			text-align: center;
+		}
+
+
+	/*---------------------------------- Here ends the footer section */
+}
+

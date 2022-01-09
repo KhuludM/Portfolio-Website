@@ -1,0 +1,1133 @@
+*
+{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+}
+
+
+html
+{
+	overflow-x: hidden;
+	margin: 0px;
+	width: 100%;
+}
+
+
+body
+{
+	margin: 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+
+main
+{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.copyright
+{
+	display: none;
+}
+
+
+
+
+
+/* Desktop Layout */
+
+/* ---------------------------------- Here starts the hero section */
+
+
+	.hero_background 
+	{ 
+		background: url('images/HeroPhoto.jpg') center;
+		width: 100%;
+		height: 700px;		
+	}
+
+
+	/* ---------------------------------- Here starts the menu bar */
+
+
+		.menu_and_logo
+		{
+			display: inline-flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 90px 150px 150px;
+			height: 70px;
+			width: 80%;
+		}
+
+
+		.logo
+		{
+			width: 250px;
+		}
+
+
+		.phone_menu
+		{
+			display: none;
+		}
+
+
+		ul
+		{
+			display: flex;
+			flex-direction: row;
+			list-style: none;
+		}
+
+
+		.menu li
+		{
+			font-size: 24px;
+			padding: 3px 50px;
+			background-color: rgba(196, 196, 196, 0.3);
+			border-right: 1px solid ;
+			align-items: center;
+		}
+
+
+		.menu li a
+		{
+			color: #F2F7FF;
+			text-decoration: none;
+		}
+
+
+		.menu li:hover 
+		{
+			background-color: rgba(0, 0, 0, 0.45);
+		}
+
+		
+		#active 
+		{
+			color: black;	
+		}
+
+
+		li:hover #active
+		{
+			color: #F2F7FF;	
+		}
+
+	/* ---------------------------------- Here ends the menu bar */
+
+
+
+
+	/* ---------------------------------- Here starts the hero title */
+
+
+		.hero_background h1
+		{
+			margin: 0px 150px auto;
+			font-size: 6rem;
+			font-weight: 100;
+			line-height: 70px;
+		}
+
+
+		.hero_background h2
+		{
+			margin: 0px 150px auto;
+			font-size: 2.5rem;
+			font-weight: 400;
+			color: rgba(255, 255, 255, 0.74);
+		}
+
+
+	/* ---------------------------------- Here ends the hero title */
+
+/* ---------------------------------- Here ends the hero section */
+
+
+
+
+/* ---------------------------------- Here starts the about section */
+
+	.abuot_background
+	{
+		width: 80%;
+		height: 400px;
+		margin: 5px auto 0px;
+		background: #E6F0FF;
+	}
+
+
+	.about_flex
+	{
+		display:flex;
+		justify-content: space-between ;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+
+	.abuot_background img
+	{
+		height: 300px;
+		margin: 25px auto;
+		box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+	}
+
+
+	.about_flex h2
+	{
+		margin: 0px;
+		font-size: 16rem;
+		color: white;
+		font-weight: 400;
+		width: 30%;
+		height: 250px;
+		line-height: 150px;
+		text-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+	}
+
+
+	.text_and_botton
+	{
+		display: block;
+		width: 40%;
+		height: 300px;
+		align-self: center;
+	}
+
+
+	.text_and_botton p
+	{
+		width: 100%;
+		font-size: 2rem;
+		line-height: 34px;
+		color: #737880;
+	}
+
+
+	.text_and_botton button
+	{
+		font-size: 20px;
+		background-color: #E6F0FF;
+		border: 1px solid #737880;
+		box-sizing: border-box;
+		border-radius: 6px;
+		text-align: center;
+		margin: auto;
+	}
+
+
+	.text_and_botton button a
+	{
+		text-decoration: none;
+		color: #737880;
+	}
+
+
+	.text_and_botton button:hover
+	{
+		background-color: white;
+	}
+
+
+/*---------------------------------- Here ends the about section */
+
+
+/*---------------------------------- Here starts the clients section */
+
+
+	#clients_background
+	{
+		width: 80%;
+		background-color: #EFEFEF;
+		margin: 5px auto 0px;
+	}
+
+
+	#clients_background h2
+	{	
+		font-size: 250px;
+		color: rgba(255, 255, 255, 0.67);
+		font-weight:300;
+		line-height: 210px;
+		margin: 0px auto;
+	}
+
+
+
+	.logo_flex
+	{
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		margin: 0px auto;
+	}
+
+
+	.logo_flex img
+	{
+		height: 300px;
+	}
+
+
+	.clients_logos_1
+	{
+		width: 150px;
+		height: 150px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_1 img:hover
+	{
+		transform: translate3d(0px, -150px, 0px);
+	}
+
+
+	.clients_logos_2
+	{
+		width: 150px;
+		height: 150px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_2 img:hover
+	{
+		transform: translate3d(0px, -150px, 0px);
+	}
+
+
+	.clients_logos_3
+	{
+		width: 150px;
+		height: 150px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_3 img:hover
+	{
+		transform: translate3d(0px, -150px, 0px);
+	}
+
+
+	.clients_logos_4
+	{
+		width: 150px;
+		height: 150px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_4 img:hover
+	{
+		transform: translate3d(0px, -150px, 0px);
+	}
+
+
+	.clients_logos_5
+	{
+		width: 150px;
+		height: 150px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_5 img:hover
+	{
+		transform: translate3d(0px, -150px, 0px);
+	}
+
+
+
+
+
+	
+
+/* ---------------------------------- Here ends the clients section */
+
+
+
+/* ---------------------------------- Here starts the work section */
+
+	/* ---------------------------------- Here starts the web design section */
+
+
+		.web
+		{
+			width: 80%;
+			margin: 5px auto 0px;
+			background-color: #4D4D4E;
+		}
+
+		.web img
+		{
+			width: 60%;
+			margin: 0px;
+			float: left;
+		}
+
+
+		.web_text h2 
+		{
+			font-size: 5rem;
+			color: #FFFFFF;
+			font-weight: 200;
+			width: 100%;
+			text-align: right;
+			float: right;
+			margin: -150px 50px;
+		}
+
+
+		.web_text h2 a
+		{
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+
+
+		.web_text h2 a:hover
+		{
+			color: black;
+		}
+
+
+
+
+	/* ---------------- Here ends the web design section */
+
+	/* ---------------- Here starts the photography section */
+
+
+		.photo 
+		{
+			width: 80%;
+			margin: 5px auto 0px;
+			background-color: #4D4D4E;
+		}
+
+
+		.photo img
+		{
+			width: 60%;
+			height: 50%;
+			margin: 0px;
+			float: right;
+			z-index: 2;
+		}
+
+
+		.photo_text h2
+		{
+			font-size: 5rem;
+			color: #FFFFFF;
+			font-weight: 200;
+			margin: -300px 55px;
+			float: left;
+			width: 100%;
+			z-index: 3;
+		}
+
+
+		.photo_text h2 a
+		{
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+
+
+		 .photo_text h2 a:hover
+		 {
+		 	color: black;
+		 }
+
+
+	/* ---------------------------------- Here ends the photography section */
+
+/* ---------------------------------- Here ends the work section */
+
+
+
+
+/*---------------------------------- Here starts the footer section */
+
+	.footer_background
+	{
+		width: 100%;
+		height: 100%;
+		background: #272727;
+		text-align: center;
+		margin: 5px auto 0px;
+	}
+
+
+
+
+	.footer_flex
+	{
+		display:flex; 
+		flex-direction: row;
+		justify-content: space-between;
+		color: white;
+		text-align: center;
+		width: 80%;
+		margin: auto;
+	}
+
+
+	.media .icon
+	{	
+		width: 30px;
+		margin: 10px;
+	}
+
+
+	.media h2
+	{
+		font-weight: 100px;
+	}
+
+
+	.sitemap h2
+	{
+		font-size: 25px;
+		margin-left: 40px;
+		font-weight: 100;
+	}
+
+
+	.footer_sitemap 
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.sitemap .footer_sitemap li
+	{
+		color: gray;
+		list-style: none;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+
+	.sitemap .footer_sitemap li a
+	{
+		font-size: 15px;
+		color: gray;
+		text-decoration: none;
+	}
+
+
+	.footer_sitemap li:hover 
+	{
+		background-color: #E6F0FF;
+	}
+
+
+	.contact #logo_footer
+	{
+		width: 235px;
+		margin: 16px auto;
+	}
+
+
+	 .contact #mail,#phone
+	{
+		display: inline-flex;
+	}
+			
+
+	.mail, .phone
+	{
+		width: 30px;
+		height: 30px;
+		padding: 9px;
+	}
+
+
+	.contact p
+	{
+		color: #B9D4FF;
+		font-size: 15px;
+	}
+
+
+	.info
+	{
+		text-align: left;
+	}
+
+	.copyright
+	{
+		width: 100%;
+		color: black;
+		background-color: white;
+		text-align: center;
+	}	
+
+
+/*---------------------------------- Here ends the footer section */
+
+
+
+
+
+
+/*Tablet Layout*/
+
+@media only screen and (min-width: 601px) and (max-width: 900px)
+{
+	/* ---------------------------------- Here starts the menu bar */
+
+		.menu_and_logo
+		{
+			display: block;
+			width: 100%;
+			margin: 90px 50px auto;
+		}
+
+
+		.logo
+		{
+			width: 300px;
+		}
+
+
+		.menu li
+		{
+			padding: 3px 35px;
+		}
+
+	/* ---------------------------------- Here ends the menu bar */
+
+
+	/* ---------------------------------- Here starts the hero text */
+
+
+		.hero_background h1
+		{
+			margin: 300px 50px auto;
+			font-size: 4rem;
+			width: 90%;
+		}
+
+
+		.hero_background h2
+		{
+			margin: 0px 100px auto;
+			font-size: 2rem;
+			width: 90%;
+		}
+
+	/* ---------------------------------- Here ends the hero text */
+
+
+	/* ---------------------------------- Here starts the about section */
+
+		.abuot_background
+		{
+			width: 90%;
+			height: 525px;
+		}
+
+
+		.abuot_background img
+		{
+			margin: 70px auto;	
+		}
+
+
+		.about_flex h2
+		{
+			line-height: 50px;
+		}
+
+
+	/*---------------------------------- Here ends the about section */
+
+
+	/*---------------------------------- Here starts the clients section */
+
+
+		#clients_background
+		{
+			width: 90%;
+		}
+
+
+		#clients_background h2
+		{	
+			font-size: 150px;
+			line-height: 140px;
+		}
+
+
+		.logo_flex
+		{
+			width: 90%;
+			margin: 0px auto;
+		}
+
+
+		.logo_flex img
+		{
+			height: 200px;
+		}
+
+		.clients_logos_1
+	{
+		width: 100px;
+		height: 100px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_1 img:hover
+	{
+		transform: translate3d(0px, -100px, 0px);
+	}
+
+
+	.clients_logos_2
+	{
+		width: 100px;
+		height: 100px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_2 img:hover
+	{
+		transform: translate3d(0px, -100px, 0px);
+	}
+
+
+	.clients_logos_3
+	{
+		width: 100px;
+		height: 100px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_3 img:hover
+	{
+		transform: translate3d(0px, -100px, 0px);
+	}
+
+
+	.clients_logos_4
+	{
+		width: 100px;
+		height: 100px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_4 img:hover
+	{
+		transform: translate3d(0px, -100px, 0px);
+	}
+
+
+	.clients_logos_5
+	{
+		width: 100px;
+		height: 100px;
+		overflow: hidden;
+	}
+
+
+	.clients_logos_5 img:hover
+	{
+		transform: translate3d(0px, -100px, 0px);
+	}
+
+
+	/* ---------------------------------- Here ends the clients section */
+
+
+	/* ---------------------------------- Here starts the work section */
+
+		/* ---------------------------------- Here starts the web design section */
+
+
+			.web
+			{
+				width: 90%;
+			}
+
+
+			.web_text h2
+			{
+				font-size: 80px;
+				margin: -100px 40px;
+			}
+
+
+		/* ---------------- Here ends the web design section */
+
+
+		/* ---------------- Here starts the photography section */
+
+			.photo 
+			{
+				width: 90%;
+			}
+			
+
+			.photo_text h2 
+			{
+				font-size: 80px;
+				margin: -230px 30px;
+			}
+
+
+		/* ---------------------------------- Here ends the photography section */
+
+	/* ---------------------------------- Here ends the work section */
+
+}
+
+
+
+	
+
+
+/*Mobile Layout*/
+
+@media only screen and (max-width:600px)
+{
+
+	/* ---------------------------------- Here starts the hero section */
+
+
+		.hero_background 
+		{ 
+			background: url('images/hero_img.jpg') center no-repeat;
+			width: 100%;
+			height: 812px;				
+		}
+
+
+		/* ---------------------------------- Here starts the menu bar */
+
+
+
+			.menu_and_logo
+			{
+				margin: 0px 0px auto;
+				height: 200px;
+				width: 100%;
+			}
+
+
+			.logo
+			{
+				width: 50%;
+				height: 55px;
+				margin: 60px auto;
+			}
+
+
+			nav .menu
+			{
+				display:none;
+			}
+
+
+			.phone_menu
+			{
+				display: flex;
+				flex-direction: column;
+				list-style: none;
+				margin: 0px 5px;
+			}
+
+			.phone_menu img
+			{
+				width: 30px;
+			}
+
+
+			.phone_menu li
+			{
+				padding: 10px 5px;
+				background-color: rgba(196, 196, 196, 0.3);
+				border-right: 1px solid ;
+				align-items: center;
+			}
+
+
+			.phone_menu li:hover 
+			{
+				background-color: rgba(0, 0, 0, 0.45);	
+			}
+
+			
+			#active2 
+			{
+				background-color: rgba(0, 0, 0, 0.45);	
+			}
+
+
+
+		/* ---------------------------------- Here ends the menu bar */
+
+
+		/* ---------------------------------- Here starts the hero title */
+
+
+			.hero_background h1
+			{
+				font-size: 50px;
+				width: 90%;
+				margin: 40px auto 0px;
+				line-height: 30px;
+			}
+
+
+			.hero_background h2
+			{
+				font-size: 20px;
+				width: 90%;
+				margin: auto;
+			}
+
+
+		/* ---------------------------------- Here ends the hero title */
+
+	/* ---------------------------------- Here ends the hero section */
+
+
+
+
+	/* ---------------------------------- Here starts the about section */
+
+		.abuot_background
+		{
+			width: 100%;
+			height: 100%;
+			margin: 2px auto 0px;
+		}
+
+
+		.about_flex
+		{
+			display:flex;
+			justify-content: space-between ;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+
+
+		.abuot_background img
+		{
+			height: 400px;
+			order: 1;
+		}
+
+
+		.about_flex h2
+		{
+			margin: -90px auto;
+			order: 2;
+		}
+
+
+		.text_and_botton
+		{
+			flex-direction: column;
+			width: 80%;
+			margin: 50px auto;
+			order: 3;
+		}
+
+
+		.text_and_botton p
+		{
+			width: 90%;
+			font-size: 1.5em;
+			line-height: 27px;
+		}
+
+
+	/*---------------------------------- Here ends the about section */
+
+
+
+
+	/*---------------------------------- Here starts the clients section */
+
+
+		#clients_background
+		{
+			width: 100%;
+			margin: 2px auto 0px;
+		}
+
+
+		#clients_background h2
+		{	
+			font-size: 7em;
+			line-height: 80px;
+			margin: 10px auto;
+		}
+
+
+
+		.logo_flex
+		{
+			flex-direction: column;
+			justify-content: center;
+			width: 100%;
+			margin: auto 0px;
+		}
+
+
+
+
+	/*---------------------------------- Here ends the clients section */
+
+
+
+	/*---------------------------------- Here starts the work section */
+
+		/* ---------------- Here starts the web design section */
+
+
+			.web
+			{
+				width: 100%;
+				margin: 2px auto 0px;
+			}
+
+			.web img
+			{
+				width: 100%;
+			}
+
+
+			.web_text h2 
+			{
+				background-color: #4D4D4E;
+				font-size: 50px;
+				margin: 0px 0px;
+				text-align: center;
+				width: 99%;
+			}
+
+
+		/* ---------------- Here ends the web design section */
+
+
+		/* ---------------- Here starts the photography section */
+
+			
+			.photo 
+			{
+				width: 100%;
+				margin: 2px auto 0px;
+			}
+
+
+			.photo img
+			{
+				width: 100%;
+			}
+
+
+			.photo_text h2 
+			{
+				font-size: 50px;
+				background-color: #4D4D4E;
+				margin: 0px;
+				width: 99%;
+				text-align: center;
+			}
+
+
+		/* ---------------------------------- Here starts the photography section */
+
+	/* ---------------------------------- Here ends the work section */
+
+
+
+
+	/*---------------------------------- Here starts the footer section */
+
+
+		.footer_background
+		{
+			margin: 2px auto 0px;
+		}
+
+
+		.footer_flex
+		{
+			display: flex; 
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			margin: 0px -20px;
+		}
+
+
+		.sitemap h2
+		{
+			font-size: 25px;
+			margin: 0px 0px;
+			text-align: center;
+		}
+
+
+		.sitemap .footer_sitemap 
+		{
+			display:flex;
+			flex-direction: row;
+		}
+
+
+		.sitemap .footer_sitemap li
+		{
+			margin: auto 10px auto;
+			border-bottom: 1px solid;
+		}
+
+
+		.contact #logo_footer
+		{
+			width: 235px;
+			margin:0px 90px;
+		}
+
+
+		.info
+		{
+			text-align: center;
+		}
+
+
+	/*---------------------------------- Here ends the footer section */
+
+
+}
+	
